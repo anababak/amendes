@@ -1,0 +1,639 @@
+body {
+    margin: 0%;
+    margin-top: 8px;
+    font-family: arial, sans-serif;
+}
+
+header {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 142px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.imgmenu {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo1 img {
+    width: 125px;
+    height: 109px;
+}
+
+.imgmonespace {
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.idespace1 {
+    display: flex;
+    justify-content: end;
+    margin: 0%;
+    margin-top: 8px;
+}
+
+.idespace1 p {
+    margin: 0%;
+    color: #000;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.idespace2 {
+    display: flex;
+    justify-content: end;
+    margin: 0%;
+}
+
+.idespace2 p {
+    margin: 0%;
+    font-size: 0.75rem;
+    margin-top: 5px;
+}
+
+.bar ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    margin: 0%;
+    color: #333;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+li a:hover {
+    border-bottom: solid 4px #0b6ba8;
+}
+
+@media (min-width: 0px) and (max-width: 799px) {
+    .imgmonespace {
+        display: none;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1015px) {
+    .bar {
+        display: none;
+    }
+    header {
+        height: 80px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1669px) {
+    header {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1317px) {
+    header {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1117px) {
+    header {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+main {
+    background-color: #edecec;
+    margin-top: 55px;
+    height: auto;
+}
+
+.main1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+
+@media (min-width: 0px) and (max-width: 1669px) {
+    .main1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1317px) {
+    .main1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1117px) {
+    .main1 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+.paimnet p {
+    padding-top: 15px;
+    margin-bottom: 0px;
+    color: #666;
+    font-size: 0.90rem;
+    text-decoration: none;
+}
+
+.pchap {
+    margin: 0px !important;
+}
+
+.paimnet p span {
+    color: rgb(68, 68, 68);
+    font-size: 0.80rem;
+    font-weight: 700;
+}
+
+.formulair {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.paimentitem2 {
+    width: 49%;
+    height: 420px;
+    background-color: #ffffff;
+}
+
+.info h4 {
+    color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 0%;
+}
+
+.info hr {
+    border-top: 2px solid #0b6ba8;
+    margin: 0%;
+}
+
+.paimentitem2 hr {
+    border-top: 2px solid #0b6ba8;
+    margin: 0%;
+}
+
+.paimentitem2 h4 {
+    color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 0%;
+}
+
+.form {
+    margin-top: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.itemcart {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.label {
+    color: rgb(68, 68, 68);
+    font-size: 0.80rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.input1 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input1nom input {
+    margin-top: 7px;
+    width: 48%;
+    height: 34px;
+    color: rgb(85, 85, 85);
+    background-color: #fbfbfb;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input1vile {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input1vile input {
+    width: 49%;
+    height: 34px;
+    color: rgb(85, 85, 85);
+    background-color: #fbfbfb;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input1 input {
+    width: 48%;
+    height: 34px;
+    color: rgb(85, 85, 85);
+    background-color: #fbfbfb;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.inputadress {
+    margin-top: 5px;
+}
+
+.inputadress input {
+    width: 98%;
+    height: 34px;
+    color: rgb(85, 85, 85);
+    background-color: #fbfbfb;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+@media (min-width: 0px) and (max-width: 601px) {
+    .imgmonespace {
+        display: block;
+    }
+    .imgdispalylogo {
+        display: none;
+    }
+    .logo1 {
+        display: flex;
+        justify-content: center;
+    }
+    .idnum {
+        background-color: #d8d8d8;
+    }
+    .idespace1 {
+        padding-top: 10px;
+        display: flex;
+        justify-content: start;
+    }
+    .idespace2 {
+        display: flex;
+        justify-content: start;
+        padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 582px) {
+    .logo1 {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.dateex {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dateex label {
+    color: rgb(68, 68, 68);
+    font-size: 0.80rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.moiannes {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.mois {
+    width: 50%;
+}
+
+.annes {
+    width: 50%;
+}
+
+.moiannes select {
+    margin-top: 5px;
+    width: 97%;
+    height: 38px;
+    color: rgb(85, 85, 85);
+    background-color: #fbfbfb;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.cvv label {
+    color: rgb(68, 68, 68);
+    font-size: 0.80rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.cvv input {
+    margin-top: 5px;
+    width: 88%;
+    height: 34px;
+    color: rgb(85, 85, 85);
+    background-color: #fbfbfb;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.btn {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.btn button {
+    font-size: 0.80rem;
+    font-weight: 700;
+    color: azure;
+    background-color: #0b6ba8;
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 0px) and (max-width: 907px) {
+    .input1nom input {
+        display: block;
+        width: 100%;
+        margin-top: 3px;
+    }
+    .datenumii input {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 597px) {
+    .formulair {
+        display: inline;
+    }
+    .info {
+        width: 100%;
+    }
+    .paimentitem2 {
+        width: 100%;
+    }
+}
+
+.videvide {
+    height: 140px;
+}
+
+.fot1 {
+    background-color: #363c48;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fot2 {
+    background-color: #272729;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0%;
+    color: #fff;
+    font-size: 15px;
+}
+
+.loding {
+    width: 500px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.loding {
+    text-align: center;
+}
+
+.loding h5 {
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text1 p {
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text12 p {
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.smsicon {
+    margin-top: 40px;
+}
+
+.inputsms input {
+    margin-top: 7px;
+    width: 140px;
+    height: 34px;
+    color: rgb(85, 85, 85);
+    background-color: #fbfbfb;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+}
+
+.btnpass11 {
+    margin-top: 20px;
+}
+
+.btnpass11 button {
+    width: 140px;
+    height: 37px;
+    outline: none;
+    border: none;
+    background-color: rgb(124, 124, 124);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnpass11 button:hover {
+    background-color: #0b6ba8;
+}
+
+.text121 {
+    color: red;
+    font-size: small;
+    font-weight: 700;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.conect p {
+    margin: 0%;
+}
+
+.itemconect1 {
+    width: 250px;
+    height: 47px;
+    color: #fff;
+    background-color: #0b6ba8;
+    display: flex;
+}
+
+.itemconect2 {
+    width: 250px;
+    height: 47px;
+    color: #fff;
+    background-color: #a63950;
+    margin-top: 2px;
+    display: flex;
+}
+
+.lok1 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 20px;
+}
+
+.lok1 img {
+    margin-left: 10px;
+}
+
+.lok2 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 20px;
+}
+
+.lok2 img {
+    margin-left: 10px;
+}
+
+.lokp1 {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.lokp2 {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.alo {
+    height: 350px;
+    padding-top: 50px;
+}
+
+.imgalo {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.imgalo img {
+    width: 100px;
+}
+
+.zidzid {
+    display: flex;
+    justify-content: center;
+}
+
+.msgalo {
+    margin-top: 30px;
+    width: 70%;
+    height: 100px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #545454;
+}
+
+.imgvisa {
+    margin-top: 40px;
+    width: 250px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgvisa img {
+    width: 40px;
+    height: 25px;
+}
